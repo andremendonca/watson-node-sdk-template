@@ -1,0 +1,34 @@
+{
+  "name": "watson-node-sdk-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "6.3.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "connect-busboy": "0.0.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.1",
+    "express": "latest",
+    "express-rate-limit": "^2.4.0",
+    "express-session": "^1.14.0",
+    "helmet": "^2.1.2",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "morgan": "^1.7.0",
+    "passport": "latest",
+    "passport-idaas-openidconnect": "*",
+    "pretty-error": "^2.0.0",
+    "watson-developer-cloud": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0"
+  }
+}

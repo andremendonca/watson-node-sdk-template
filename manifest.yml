@@ -1,0 +1,10 @@
+---
+applications:
+- name: watson-node-sdk-template
+  host: watson-node-sdk-template
+  path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
+  command: npm start

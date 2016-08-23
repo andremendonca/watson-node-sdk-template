@@ -1,0 +1,140 @@
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li:last-child,
+.chat li li {
+  border-bottom: none;
+}
+
+.chat li li {
+  margin-bottom: 0px;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.chat li audio {
+  margin-top: 10px;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-primary {
+  border-color: #d3d3d3;
+}
+
+.panel-body
+{
+    height: 450px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.twitter-typeahead {
+    display: block !important;
+}
+
+.tt-dataset-topics {
+    margin-left: 15px;
+}
+
+.help-buttons {
+    margin-top: 15px;
+}
+
+/* EDITED */
+.navbar {
+  background: #1f1e1e;
+  border-bottom: 5px solid gray;
+}
+
+.navbar img {
+  margin: 5px;
+  max-height: 70px;
+}
+
+.recording .fa-circle {
+  color: #F15050;
+}
+
+.recording .btn-xs {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.fa-blink {
+  -webkit-animation: fa-blink 1.5s infinite linear;
+  animation: fa-blink 1.5s infinite linear;
+}
+
+@-webkit-keyframes fa-blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fa-blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
