@@ -9,7 +9,7 @@ Installation
 -------------
 
 
-#### Requirements
+#### 1. Requirements
 
 ##### Node.js and Node Package Manager (NPM)
 Packages: https://nodejs.org/en/download/
@@ -20,15 +20,15 @@ Via package manager: https://nodejs.org/en/download/package-manager/
 
     npm install --global gulp-cli
 
-#### Get the source code
+#### 2. Get the source code
 
     git clone git@github.com:andremendonca/watson-node-sdk-template.git
 
-#### Install node packages
+#### 3. Install node packages
 
     npm install
 
-#### Run locally
+#### 4. Run locally
 
 Using gulp:
 
